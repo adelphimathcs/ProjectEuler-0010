@@ -12,7 +12,7 @@ def sieve(max)
 end
 
 #Generate primes up to 2m
-primes = sieve(2000000)
+primes = sieve(2_000_000)
 
 #Print sum
 puts primes.reduce(:+)
